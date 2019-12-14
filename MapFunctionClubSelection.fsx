@@ -16,10 +16,8 @@ let thirdPerson =  Woman ("Alicja")
 
 let AdamIsInClub = isAlowedToBeInClub firstPerson
 
-
-let selectionProcess = List.map isAlowedToBeInClub
-
 let queue = [Man ("Adam", 25); Man ("Witek", 18); Woman ("Alicja");]
 
 
+let selectionProcess = List.map isAlowedToBeInClub
 let inClub = queue |> selectionProcess
