@@ -38,6 +38,8 @@ let lifted = [isAlowedToBeInClub]
 let selectionProcess2 = lifted |> List.apply 
 let inClub2 = queue|> selectionProcess2
 
+
+//Another representation
 let add x y = x+y
 
 let resultList =  
